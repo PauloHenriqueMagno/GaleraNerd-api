@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "email": "test@ndo.com",
+      "password": "$2a$10$.JAEqKSHMuvqOnC3jSNhmeYFBnzwhsM.iRIchawb/95zhNShZj4Ka",
+      "name": "Matheus",
+      "dev": true,
+      "id": 1
+    }
+  ],
+  "dev": [
+    {
+      "userId": 1,
+      "bio": "Desenvolvedor WEB",
+      "contato": {
+        "email": "test@ando.com"
+      },
+      "servico": [
+        "React",
+        "html",
+        "css"
+      ],
+      "valorhora": 20,
+      "id": 1
+    }
+  ],
+  "feedbacks": [],
+  "service": [],
+  "projects": []
+}
