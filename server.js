@@ -12,7 +12,6 @@ const rules = auth.rewriter({
   users: 644,
   dev: 644, 
   feedbacks: 664,
-  services: 444,
   projects: 660
 });
 
