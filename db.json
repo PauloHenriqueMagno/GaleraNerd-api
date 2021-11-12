@@ -1,7 +1,351 @@
 {
-  "users": [],
-  "dev": [],
-  "feedbacks": [],
-  "service": [],
-  "projects": []
+  "users": [
+    {
+      "email": "sidney@mail.com",
+      "password": "$2a$10$wwGEYBoYF1.74/sjUtKKaehLrrY/421D602ZQO1AzxH0oEKJmei7i",
+      "name": "Sidney Patez",
+      "dev": true,
+      "id": 1
+    },
+    {
+      "email": "debora@mail.com",
+      "password": "$2a$10$HVKISTvgifrUvxFS3qHvSOBXsLxihvz4wtzNY3ZaMeFKpA2r2VqeG",
+      "name": "Debora Pavani",
+      "dev": true,
+      "id": 2
+    },
+    {
+      "email": "matheus@mail.com",
+      "password": "$2a$10$gWbSlkru0zkPBX4iCulJm.XkiolEu/KUFEskuG9wdTcEshXX57StC",
+      "name": "Matheus Burei",
+      "dev": true,
+      "id": 3
+    },
+    {
+      "email": "paulo@mail.com",
+      "password": "$2a$10$41/gSAAjxq52vrCTSKC.m.DdXYVnYfJWtQzVKXoVwZSjQGtgqudue",
+      "name": "Paulo Henrique",
+      "dev": true,
+      "id": 4
+    },
+    {
+      "email": "pedro@mail.com",
+      "password": "$2a$10$ATLgI3EBS42s6v8/BeXTQuN6gqKdEq4h2gGxnYRQowqx/U/uzr9F.",
+      "name": "Pedro Henrique",
+      "dev": true,
+      "id": 5
+    },
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$erVgaI1lFyPDh/OiqQToye0YFtVDQdHvVZmvthDLwN6kPWZVGlBIu",
+      "name": "Maria Silva",
+      "dev": false,
+      "id": 6
+    },
+    {
+      "email": "jose@mail.com",
+      "password": "$2a$10$.J/2vnkkbDUWnftesa13euapibOBpnBXh5e1HrslbJoaUV.66HFGK",
+      "name": "José Augusto",
+      "dev": false,
+      "id": 7
+    },
+    {
+      "email": "marcos@mail.com",
+      "password": "$2a$10$bPThgYMMcItehh1uC/yas.fW7PdaSR74rhpA.RCq84u4x07ku9lQi",
+      "name": "Marcos Alberto",
+      "dev": false,
+      "id": 8
+    }
+  ],
+  "dev": [
+    {
+      "userId": 1,
+      "bio": "Minha Biografia",
+      "contacts": {
+        "email": "sidney@mail.com",
+        "linkedin": "https://link.com",
+        "gitHub": "https://link.com"
+      },
+      "services": ["web site"],
+      "categories": ["Website Institucional", "Sistemas"],
+      "hourValue": 20,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "bio": "",
+      "contacts": {
+        "email": "",
+        "linkedin": "",
+        "gitHub": ""
+      },
+      "services": [],
+      "categories": [],
+      "hourValue": 0,
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "bio": "",
+      "contacts": {
+        "email": "",
+        "linkedin": "",
+        "gitHub": ""
+      },
+      "services": [],
+      "categories": [],
+      "hourValue": 0,
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "bio": "",
+      "contacts": {
+        "email": "",
+        "linkedin": "",
+        "gitHub": ""
+      },
+      "services": [],
+      "categories": [],
+      "hourValue": 0,
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "bio": "",
+      "contacts": {
+        "email": "",
+        "linkedin": "",
+        "gitHub": ""
+      },
+      "services": [],
+      "categories": [],
+      "hourValue": 0,
+      "id": 5
+    }
+  ],
+  "feedbacks": [
+    {
+      "devId": 1,
+      "attendance": [
+        {
+          "userId": 6,
+          "attendence": 3
+        }
+      ],
+      "price": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "recommendation": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "comment": [
+        {
+          "userId": 6,
+          "comment": "This is a test comment"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "devId": 2,
+      "attendance": [
+        {
+          "userId": 6,
+          "attendence": 3
+        }
+      ],
+      "price": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "recommendation": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "comment": [
+        {
+          "userId": 6,
+          "comment": "This is a test comment"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "devId": 3,
+      "attendance": [
+        {
+          "userId": 6,
+          "attendence": 3
+        }
+      ],
+      "price": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "recommendation": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "comment": [
+        {
+          "userId": 6,
+          "comment": "This is a test comment"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "devId": 4,
+      "attendance": [
+        {
+          "userId": 6,
+          "attendence": 3
+        }
+      ],
+      "price": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "recommendation": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "comment": [
+        {
+          "userId": 6,
+          "comment": "This is a test comment"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "devId": 5,
+      "attendance": [
+        {
+          "userId": 6,
+          "attendence": 3
+        }
+      ],
+      "price": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "recommendation": [
+        {
+          "userId": 6,
+          "attendence": 4
+        }
+      ],
+      "comment": [
+        {
+          "userId": 6,
+          "comment": "This is a test comment"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "status": "Aguardando orçamento",
+      "budget": "500.00",
+      "requestDescription": "Preciso de um site simples para minha empresa",
+      "devId": 1,
+      "userId": 6,
+      "id": 1
+    },
+    {
+      "status": "Aprovação pendente",
+      "budget": "500.00",
+      "requestDescription": "Preciso de um site simples para minha empresa",
+      "devId": 1,
+      "userId": 6,
+      "id": 2
+    },
+    {
+      "status": "Em desenvolvimento",
+      "budget": "500.00",
+      "requestDescription": "Preciso de um site simples para minha empresa",
+      "devId": 1,
+      "userId": 6,
+      "id": 3
+    },
+    {
+      "status": "Desenvolvimento finalizado",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 4
+    },
+    {
+      "status": "Concluído",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 5
+    },
+    {
+      "status": "Solicitação de orçamento",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 6
+    },
+    {
+      "status": "Aprovação pendente",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 7
+    },
+    {
+      "status": "Aprovado",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 8
+    },
+    {
+      "status": "Recusado",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 9
+    },
+    {
+      "status": "Conclusão pendente",
+      "budget": "500.00",
+      "requestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque et purus non bibendum. Fusce in quam ullamcorper, volutpat mauris ac, finibus nulla. Sed tempor scelerisque ante, nec pulvinar metus rhoncus non. Etiam interdum risus quis magna tempus consectetur.",
+      "devId": 1,
+      "userId": 6,
+      "id": 10
+    }
+  ]
 }
