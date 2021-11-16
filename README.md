@@ -1,6 +1,7 @@
 <div align="center">
   <img alt="KenzieHub" title="KenzieHub" src="https://kenzie.com.br/images/logoblue.svg" width="100px" />
   <h1>Galera Nerd</h1>
+  
   <p>api created for study purposes at the Kenzie Academy Brazil educational institution</p>
 </div>
 
