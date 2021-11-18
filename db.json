@@ -1,6 +1,280 @@
 {
-  "users": [],
-  "dev": [],
-  "feedbacks": [],
-  "projects": []
+  "users": [
+    {
+      "email": "sidney@mail.com",
+      "password": "$2a$10$mVi24vW/9jgR9GM8TxgZk.4MxPP.VN1qhp2GU67EwFNqMEXDugEB6",
+      "dev": true,
+      "name": "Sidney Patez",
+      "passwordConfirm": "123456",
+      "id": 1
+    },
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$E8Nx5azOB54IEjXTN5Nn7.cDLz9rfy32CYvwAZvIBLKkw/6z8ISSe",
+      "dev": false,
+      "name": "Maria Silva",
+      "passwordConfirm": "123456",
+      "id": 2
+    },
+    {
+      "email": "debora@mail.com",
+      "password": "$2a$10$AHRxJKTgF5jZ0YiuhXjLpeo/J7Sdn6ql2oeb41fAVCBARFOwCKbVy",
+      "dev": true,
+      "name": "Debora Pavani",
+      "passwordConfirm": "123456",
+      "id": 3
+    },
+    {
+      "email": "jose@mail.com",
+      "password": "$2a$10$mtjuYtiiu.dvRRwMlhaxWeQ0AuVvpqTUAaRqX6na.Wd4.PvlDwhKK",
+      "dev": false,
+      "name": "Jose da Silva",
+      "passwordConfirm": "123456",
+      "id": 4
+    },
+    {
+      "email": "pedro@mail.com",
+      "password": "$2a$10$eijK4QoPEsJ0iVNPFYQ9cuxmZp3BJ.DqHIV5/EIafqk7LDgr.Zsy.",
+      "dev": true,
+      "name": "Pedro Henrique",
+      "passwordConfirm": "123456",
+      "id": 5
+    },
+    {
+      "email": "paulo@mail.com",
+      "password": "$2a$10$PKPpvwfpzFKSRp7svPuoLeSWJ.D81y9P6dJQuSQXvVEetp1VZnxNq",
+      "dev": true,
+      "name": "Paulo Henrique",
+      "passwordConfirm": "123456",
+      "id": 6
+    },
+    {
+      "email": "henrique@mail.com",
+      "password": "$2a$10$OUF3yQcgM4LPsPUcCaIrVOh1/J7GCaU2bzGMm7jmDYRsvdvX7EE5m",
+      "dev": false,
+      "name": "Henrique Moreira",
+      "passwordConfirm": "123456",
+      "id": 7
+    },
+    {
+      "email": "matheus@mail.com",
+      "password": "$2a$10$y2DS49SCLXgN9IsNveQHZOuSfEAnYfwfl5LgteYBuOzpNt6Xydgna",
+      "dev": true,
+      "name": "Matheus Burei",
+      "passwordConfirm": "123456",
+      "id": 8
+    }
+  ],
+  "dev": [
+    {
+      "userId": 1,
+      "bio": "Trabalho a mais de 8 anos com assistência técnica em computadores e celulares, e decidi dar um passo além e migrar para a área de desenvolvimento.\nEstou apaixonado pelas tecnologias de desenvolvimento, e me empenhando ao máximo para conseguir trabalhar na área com competência, sempre buscando aprimorar meus conhecimentos.",
+      "contacts": {
+        "linkedin": "sidney-patez",
+        "gitHub": "patezsidney",
+        "email": "sidney@mail.com"
+      },
+      "categories": [
+        "Website institucional",
+        "Sistemas",
+        "E-commerce",
+        "Consultoria"
+      ],
+      "hourValue": "60",
+      "services": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "bio": "Olá =)",
+      "contacts": {
+        "linkedin": "debora-pavani",
+        "gitHub": "depavani",
+        "email": "debora@mail.com"
+      },
+      "categories": [
+        "Desenvolvimento de Aplicativos",
+        "Sistemas",
+        "E-commerce",
+        "Website institucional"
+      ],
+      "hourValue": "80",
+      "services": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJs"
+      ],
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "bio": "Oi",
+      "contacts": {
+        "linkedin": "pedro-henrique2",
+        "gitHub": "pedrominimen",
+        "email": "pedro@mail.com"
+      },
+      "categories": [
+        "Desenvolvimento de Aplicativos",
+        "Jogos",
+        "Sistemas",
+        "Consultoria"
+      ],
+      "hourValue": "70",
+      "services": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJs"
+      ],
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "bio": "Oi",
+      "contacts": {
+        "linkedin": "paulohenriquemagno",
+        "gitHub": "PauloHenriqueMagno",
+        "email": "paulo@mail.com"
+      },
+      "categories": [
+        "Desenvolvimento de Aplicativos",
+        "Website institucional",
+        "Sistemas",
+        "Consultoria"
+      ],
+      "hourValue": "90",
+      "services": [
+        "html",
+        "css",
+        "js",
+        "react",
+        "react native"
+      ],
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "bio": "Ola",
+      "contacts": {
+        "linkedin": "metheus-h-burei",
+        "gitHub": "MatheusHenriqueBurei",
+        "email": "matheus@mail.com"
+      },
+      "categories": [
+        "Desenvolvimento de Aplicativos",
+        "Website institucional",
+        "Sistemas",
+        "Jogos",
+        "E-commerce",
+        "Consultoria"
+      ],
+      "hourValue": "100",
+      "services": [
+        "Python",
+        "React",
+        "Vue",
+        "Node"
+      ],
+      "id": 5
+    }
+  ],
+  "feedbacks": [
+    {
+      "devId": 1,
+      "attendance": [],
+      "price": [],
+      "recommendation": [],
+      "comment": [],
+      "id": 1
+    },
+    {
+      "devId": 3,
+      "attendance": [],
+      "price": [],
+      "recommendation": [],
+      "comment": [],
+      "id": 2
+    },
+    {
+      "devId": 5,
+      "attendance": [],
+      "price": [],
+      "recommendation": [],
+      "comment": [],
+      "id": 3
+    },
+    {
+      "devId": 6,
+      "attendance": [],
+      "price": [],
+      "recommendation": [],
+      "comment": [],
+      "id": 4
+    },
+    {
+      "devId": 8,
+      "attendance": [],
+      "price": [],
+      "recommendation": [],
+      "comment": [],
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Olá, preciso de um site simples para minha empresa, não precisa de cadastro nem nada do tipo, somente uma vitrine mesmo.",
+      "budget": null,
+      "devId": 1,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Olá, quero um site de fotografias simples e bonito",
+      "budget": null,
+      "devId": 3,
+      "userId": 7,
+      "id": 2
+    },
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Preciso de um site bem básico!!!",
+      "budget": null,
+      "devId": 3,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Quero saber se meu site é seguro",
+      "budget": null,
+      "devId": 6,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Quero um app que faça café!!!",
+      "budget": null,
+      "devId": 8,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "status": "Aguardando orçamento",
+      "requestDescription": "Quero uma aplicação para controlar contas pessoais",
+      "budget": null,
+      "devId": 5,
+      "userId": 2,
+      "id": 6
+    }
+  ]
 }
