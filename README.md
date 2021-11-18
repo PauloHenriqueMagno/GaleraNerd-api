@@ -299,6 +299,8 @@ _require authorization_
 
 **GET** /projects
 
+_require authorization_
+
 ### **New Projects**
 
 **POST** /projects
